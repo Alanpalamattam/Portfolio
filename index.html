@@ -10,20 +10,24 @@
     <script src="js/uikit-icons.js"></script>
 
     <title>Portfolio</title>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    rel="stylesheet"
+  />
 </head>
 <body>
 <!-- Navigation Bar -->
     <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
     
     <div class="uk-navbar-left">
-        <a href="" class="uk-navbar-item uk-logo uk-light">JohnDoe.</a>
+        <a href="" class="uk-navbar-item uk-logo uk-light">Alan.</a>
     </div>
     <div class="uk-navbar-right">
 
         <ul class="uk-navbar-nav uk-light">
             <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
             <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="mailto:" uk-scroll>Contact</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#contact" uk-scroll>Contact</a></li>
 
         </ul>
 
@@ -35,7 +39,7 @@
 <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
     
     <div class="uk-navbar-left">
-        <a href="" class="uk-navbar-item uk-logo uk-light">JohnDoe.</a>
+        <a href="" class="uk-navbar-item uk-logo uk-light">Alan Peter.</a>
     </div>
     <div class="uk-navbar-right">
 
@@ -67,7 +71,12 @@
 <!-- Navigation Bar Mobile Ends -->
 <!-- Home -->
 <section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-    <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm John Doe, a front-end web developer, <br>graphic designer, and an UI/UX designer.</h1>
+    <img src="vag.jpg" alt="A description of the image" class="round-image" />
+    <br>
+    <br>
+    <br>
+    br
+    <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm Alan Peter, a front-end web developer, <br>app developer, and an UI/UX designer.</h1>
     <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
 
 
@@ -81,11 +90,48 @@
 
 <!-- About Me -->
 <section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-<h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
-<!-- Change here to ur paragraph -->
-<p class="uk-margin-xlarge-left uk-margin-xlarge-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend posuere tortor vel lobortis. Morbi pretium in sapien non suscipit. Nam ac efficitur enim. Vestibulum accumsan erat sit amet nulla commodo, nec varius felis aliquam. Aliquam suscipit mauris lacus, at euismod purus tempor aliquam. Donec varius sem nisl. Fusce augue tortor, hendrerit at elit quis, aliquet blandit eros. Nam gravida sem velit, eu placerat nunc commodo ut. <br><br>Maecenas ultricies magna nec nisi egestas, in posuere velit tincidunt. Nam quis turpis non ligula dapibus bibendum sit amet at felis. Vestibulum ornare tempor nulla, quis sodales ex consequat vel. Morbi sollicitudin ligula eget mattis euismod. Nulla scelerisque malesuada arcu a vulputate. Phasellus ac lectus consequat, eleifend libero id, tincidunt lectus. Sed tempus gravida odio, sed semper neque aliquet imperdiet.</p>
-<a href="" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="instagram"></a> &nbsp;<a href="" class="uk-light uk-button-text" uk-icon="dribbble"></a> &nbsp;<a href="" class="uk-button-text uk-light" uk-icon="github"></a> &nbsp;<a href="" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
-
+    <h3 class="uk-margin-xlarge-left uk-light">Skills</h3>
+    
+    <!-- Icons with names for programming languages -->
+    <div class="uk-margin-xlarge-left uk-grid-small uk-child-width-1-4@s uk-flex-center" uk-grid>
+      
+      <div class="uk-text-center">
+        <i class="fab fa-html5 fa-3x"></i>
+        <p>HTML5</p>
+      </div>
+      
+      <div class="uk-text-center">
+        <i class="fab fa-css3-alt fa-3x"></i>
+        <p>CSS3</p>
+      </div>
+      
+      <div class="uk-text-center">
+        <i class="fab fa-js fa-3x"></i>
+        <p>JavaScript</p>
+      </div>
+      
+      <div class="uk-text-center">
+        <i class="fab fa-react fa-3x"></i>
+        <p>React</p>
+      </div>
+      
+      <div class="uk-text-center">
+        <i class="fab fa-golang fa-3x"></i> <!-- Replace this with an appropriate Golang icon or custom SVG -->
+        <p>Golang</p>
+      </div>
+      <br>
+      
+      <div class="uk-text-center">
+        <i class="fab fa-python fa-3x"></i> <!-- Replace this with an appropriate Golang icon or custom SVG -->
+        <p>Python</p>
+      </div>
+      <div class="uk-text-center">
+        <i class="fab fa-java fa-3x"></i> <!-- Replace this with an appropriate Golang icon or custom SVG -->
+        <p>Java</p>
+      </div>
+    </div>
+  </section>
+  
 <!-- About Me Ends -->
 
 
@@ -102,18 +148,18 @@
 <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
     <!-- Change all of this to ur projects -->
     <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-        <h4>Project Name</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a class="uk-button-text uk-text-decoration-none" href="">
+        <h4>CommuneHub</h4>
+         <p>CommuneHub is a mobile Application developed for working in colleges.This App can be used for binding all communities together        </p>
+           <a class="uk-button-text uk-text-decoration-none" href="https://github.com/Alanpalamattam/communehub" target="_blank">
             <span uk-icon="icon: link">
-            </span> Website Link </a>
+            </span> Link </a>
         </div>
         <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>Project Name</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a class="uk-button-text uk-text-decoration-none" href="">
+            <h4>Surplus</h4>
+            <p>Surplus is a Mobile Application  designed for sharing excess food and other surplus goods in a society</p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://github.com/Alanpalamattam/surplus" target="_blank">
                 <span uk-icon="icon: link">
-                </span> Website Link </a>
+                </span> Link </a>
             </div></div>
 
 
@@ -125,6 +171,32 @@
 <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
 </div>
 <!-- Projects Section Ends -->
-    
+    <!-- Contact Me Section -->
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+<section id="contact" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h3 class="uk-margin-xlarge-left uk-light">Contact Me</h3>
+    <form action="YOUR_FORM_PROCESSING_URL" method="POST" class="uk-margin-xlarge-left">
+        <div class="uk-margin">
+            <label for="name">Name:</label>
+            <input class="uk-input" type="text" id="name" name="name" required>
+        </div>
+        <div class="uk-margin">
+            <label for="email">Email:</label>
+            <input class="uk-input" type="email" id="email" name="email" required>
+        </div>
+        <div class="uk-margin">
+            <label for="message">Message:</label>
+            <textarea class="uk-textarea" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button class="uk-button uk-button-secondary" type="submit">Send Message</button>
+    </form>
+    <div class="uk-margin-xlarge-left uk-light">
+        <h4>Connect with me:</h4>
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="uk-icon-button" uk-icon="icon: linkedin; ratio: 2"></a>
+        <a href="https://www.instagram.com/yourprofile" target="_blank" class="uk-icon-button" uk-icon="icon: instagram; ratio: 2"></a>
+    </div>
+</section>
+<!-- Contact Me Section Ends -->
+
 </body>
 </html>

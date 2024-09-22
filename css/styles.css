@@ -1,4 +1,14 @@
-html{
-    font-family: IBM Plex Mono;
+html {
+  font-family: IBM Plex Mono;
 }
 
+.round-image {
+  width: 400px; /* Set the desired width */
+  height: 400px; /* Set the desired height */
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  margin: 20px auto;
+  padding: 30px; /* Centers the image horizontally */
+  display: block; /* Ensures proper alignment */
+  float: right;
+}
